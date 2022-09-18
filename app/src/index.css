@@ -1,13 +1,121 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.maxw_one {
+  width: 90%;
+  margin: auto;
+}
+
+
+/* Header start */
+.header {
+  background: #ADC9A6;
+}
+.header h4 {
+  font-size: 12px;
+  padding: 10px 0px;
+  text-align: center;
+  color:  #153C3C;
+}
+/* Header end */
+
+/* Navbar start */
+.navbar {
+  background: #153C3C;
+}
+.bloc_flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bloc_one {
+  display: flex;
+}
+.bloc_one img {
+  padding: 20px 0px;
+}
+.bloc_one ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+.bloc_one ul li {
+  list-style: none;
+}
+.bloc_one ul li a {
+  text-decoration: none;
+  color: #DDE4E4;
+  padding-right: 45px;
+  font-size: 13.5px;
+  transition: all 0.5s;
+}
+.bloc_one ul li a:hover {
+  color: #84A17D;
+}
+.bloc_one button {
+  padding: 8px 13px;
+  background: #84A17D;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-style: normal;
+  transition: all 0.5s;
+}
+.bloc_one button:hover {
+  box-shadow: 0px 0px 20px #84A17D;
+  transform: scale(1.1);
+}
+/* Navbar end */
+
+/* Webflow start */
+.bloc_flex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bloc_flex2 h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #153C3C;
+  background: #f3f7f2;
+  padding: 7px 13px;
+  border-radius: 4px;
+  margin-top: 100px;
+}
+.bloc_flex2 h1 {
+  font-size: 62px;
+  font-weight: 400;
+  color: #172426;
+}
+/* Weblow end */
+
+/* Banner start */
+.banner img {
+  width: 1152px;
+  margin-top: 100px;
+}
+/* Banner end */
+
+/* Lpage start */
+.bloc_flex3 {
+  
+}
+ .card1 {
+  width: 510px;
+  background: #F2F8F8;
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-top: 35px;
+  border-radius: 12px;
+  float: left;
+  margin: 20px;
+}
+.card1 h2 {
+  padding: 20px 0px;
 }
