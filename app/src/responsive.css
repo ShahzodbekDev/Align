@@ -176,7 +176,7 @@
     align-items: center;
   }
   .bloc_one button {
-    width: 50vh;
+    width: 200px;
     margin-bottom: 25px;
   }
   .card1 {
@@ -230,4 +230,89 @@
   .footalign img {
     padding: 0;
   }
+}
+@media screen and (max-width: 400px){
+
+
+  .header h4 {
+    font-size: 9px;
+  }
+  .bloc_one img {
+    width: 67px;
+  }
+  .bloc_one ul li a {
+    font-size: 9.5px;
+  }
+  .bloc_flex2 h4 {
+    margin-top: 50px;
+    font-size: 11px;
+  }
+  .bloc_flex2 h1 {
+    font-size: 37px;
+  }
+  .banner img {
+    margin-top: 40px;
+  }
+  .card1 {
+    width: 340px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  .card1 h2 {
+    padding: 15px 0px;
+  }
+  .card_2 {
+    width: 340px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  .card_2 h2 {
+    padding: 15px 0px;
+  }
+  .card_3 {
+    width: 340px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  .card_3 h2 {
+    padding: 15px 0px;
+  }
+  .aditional {
+    margin-top: 60px;
+  }
+  .card5 {
+    width: 410px;
+    height: 60px;
+    padding: 0px 30px;
+  }
+  .card5 h4 {
+    font-size: 17px;
+  }
+  .bloc_bac {
+    padding-left: 30px;
+    height: 290px;
+  }
+  .bloc_bac h2 {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  .bloc_prise button {
+    width: 135px;
+    height: 38px;
+    margin-top: 5px;
+  }
+  .bloc_prise h3 {
+    font-size: 37px;
+  }
+  .bloc_flex6 {
+    padding-top: 50px;
+  }
+  .headfoot h1 {
+    font-size: 27px;
+  }
+  .footalign h2 {
+    font-size: 15px;
+  }
+
+
 }

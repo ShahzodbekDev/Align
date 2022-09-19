@@ -121,7 +121,6 @@
   padding-left: 60px;
   padding-top: 35px;
   border-radius: 12px;
-  border: 1px solid red;
 
   margin: 20px;
 }
@@ -147,7 +146,6 @@
   padding-left: 60px;
   padding-top: 35px;
   border-radius: 12px;
-  border: 1px solid red;
 
   margin: 20px;
 }
@@ -166,7 +164,6 @@
   padding-left: 60px;
   padding-top: 35px;
   border-radius: 12px;
-  border: 1px solid red;
   margin: 20px;
 }
 .card_3 h2 {
@@ -264,9 +261,6 @@
 .bloc_prise button {
   width: 142px;
   height: 48px;
-  left: 0%;
-  right: 0%;
-  top: 0px;
   background: #84a17d;
   border-radius: 4px;
   margin-left: 22px;
@@ -364,6 +358,7 @@
 }
 .footalign h2 a {
   color: #84a17d;
+  text-decoration: none;
 }
 .footnav {
   display: flex;

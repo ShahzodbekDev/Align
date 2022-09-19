@@ -56,9 +56,10 @@ const Footer = () => {
               <img src={Rasmm} alt="404" />
               <h2>
                 | © Template by ShahzodbekDev{" "}
-                <a href="https://github.com/ShahzodbekDev">
-                  <i class="fa-brands fa-github"></i> GitHib
-                </a>
+                <a href="https://github.com/ShahzodbekDev" >
+                  <i class="fa-brands fa-github"></i> GitHub 2022
+                </a> 
+                 
               </h2>
             </div>
             <div className="footnav">
