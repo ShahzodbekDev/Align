@@ -33,7 +33,9 @@ const Lpage = () => {
             </div>
            </div>
         </div>
+        <div className="clr"></div>
     </div>
+    
   )
 }
 

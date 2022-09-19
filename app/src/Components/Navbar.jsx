@@ -2,6 +2,9 @@ import React from "react";
 import Align from "../Imges/Align.png";
 
 const Navbar = () => {
+
+
+
   return (
     <div className="navbar">
       <div className="maxw_one">
